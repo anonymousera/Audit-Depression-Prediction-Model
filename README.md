@@ -48,13 +48,5 @@ Grounded in the final report (`Latex/thesis.tex`), the project evaluates:
 
 ## Reproducibility
 
-1. Create a virtual environment and install: `pip install -r requirements.txt`  
-2. Add competition/source CSVs under `data/`.  
-3. Open Jupyter and run notebooks **top to bottom** in the order above.  
-
-Expected data paths (adjust if your layout differs):
-
-- `data/train.csv`  
-- `data/test.csv`  
-
-Notebooks retain Colab/Kaggle cells where relevant; 
+1. Iinstall: `pip install -r requirements.txt`   
+2. Run notebooks **top to bottom** in the order above.  
