@@ -1,6 +1,6 @@
-# RDS Project 2025 — Fairness audit of a depression-prediction ADS
+# Performance Optimization and Fairness audit of a depression prediction Automated Decision System
 
-This repository holds the **notebooks** and **LaTeX report** for a fairness-focused audit of a high-performing depression prediction pipeline. The work goes beyond leaderboard accuracy: it asks who benefits, who is harmed, and how mitigation trades off against performance.
+This repository holds the **notebooks**, **report**, and a **presentation** for a fairness-focused audit and performance optimization of a high-performing depression prediction pipeline. The work goes beyond leaderboard accuracy: it asks who benefits, who is harmed, and how mitigation trades off against performance.
 
 The analysis is **staged**: broad EDA and attribute-level screening first; student vs. working-professional subgroup work comes **after** other axes show weaker disparity signals.
 
@@ -39,8 +39,6 @@ Grounded in the final report (`Latex/thesis.tex`), the project evaluates:
 4. `notebooks/04_subgroup_model_students.ipynb`  
 5. `notebooks/05_subgroup_model_working_professionals.ipynb`  
 
-Subgroup ensemble notebooks (`04`–`05`) use numbered sections (e.g. imports through results) for scanning; code cells were not reordered.
-
 ## Key findings (high level)
 
 - Strong headline accuracy can coexist with serious subgroup-level unfairness.  
@@ -51,14 +49,12 @@ Subgroup ensemble notebooks (`04`–`05`) use numbered sections (e.g. imports th
 ## Reproducibility
 
 1. Create a virtual environment and install: `pip install -r requirements.txt`  
-2. Add competition/source CSVs under `data/` (see filenames below).  
+2. Add competition/source CSVs under `data/`.  
 3. Open Jupyter and run notebooks **top to bottom** in the order above.  
-4. Do **not** commit API keys, `kaggle.json`, or large private datasets.  
 
 Expected data paths (adjust if your layout differs):
 
 - `data/train.csv`  
 - `data/test.csv`  
-- `data/final_depression_dataset_1.csv` (optional, where used in notebooks)  
 
-Notebooks retain Colab/Kaggle cells where relevant; **code outputs are cleared** so diffs stay small on GitHub.
+Notebooks retain Colab/Kaggle cells where relevant; 
