@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data and artifacts (local)
+data/
+artifacts/
+outputs/
+models/
+
+# Credentials and secrets
+kaggle.json
+*.env
+.env
+
+# OS/editor
+.DS_Store
+Thumbs.db
