@@ -30,6 +30,8 @@ Grounded in the final report (`Latex/thesis.tex`), the project evaluates:
 |------|----------|
 | `notebooks/` | Cleaned, renamed legacy notebooks (section headings, cleared outputs) |
 | `Latex/` | Final report source (`thesis.tex` and chapters) |
+| `Report.pdf` | Final report -- To view this, this might be needed to download, else there can be rendering error while viewing in browser. 
+| `presentation.pdf` | Final presentation of the analysis -- To view this, this might be needed to download, else there can be rendering error while viewing in browser. 
 
 ## Notebook order (recommended)
 
